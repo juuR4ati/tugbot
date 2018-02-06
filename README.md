@@ -25,6 +25,9 @@ optional arguments:
   
 example:
   ./tugbot.py Category:my_category     test run to see if everything parses correctly
+  
   ./tugbot.py my_category              works as above
+
   ./tugbot.py "that's a cool cat"      escape category names containing special characters with quote marks
+  
   ./tugbot.py my_category --commit     sends data to Wikidata
