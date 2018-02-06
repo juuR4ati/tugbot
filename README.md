@@ -21,7 +21,10 @@ positional arguments:
 
 optional arguments:
   -h, --help  show this help message and exit
+  
+  
   --commit    sends results to Wikidata. Default is not to send.
+  
   
 example:
   ./tugbot.py Category:my_category     test run to see if everything parses correctly
